@@ -1,3 +1,8 @@
+// // allows access to inquirer in the app.js file
+const inquirer = require("inquirer");
+// require allows js file to access fs module functions through the fs assignment
+const fs = require("fs");
+
 // array of questions for user
 const questions = [];
 
