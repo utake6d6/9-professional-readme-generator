@@ -8,6 +8,61 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 // array of questions for user
 const questions = [
   {
+    // Title of the project
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Description
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Installation instructions
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Usage information
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // License
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Contribution guidelines
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Test instructions
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Questions
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // GitHub username
+    type: "input",
+    name: "projectName",
+    message: "What's the name of your project?",
+  },
+  {
+    // Email address
     type: "input",
     name: "projectName",
     message: "What's the name of your project?",
