@@ -9,4 +9,5 @@ function generateMarkdown(data) {
 
 module.exports = generateMarkdown;
 
-// ![alt text](assets/images/screenshot.png) - for screenshot etc.
+// ![alt text](assets/images/screenshot.png) - for screenshot or vid/gif etc.
+//
