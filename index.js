@@ -37,18 +37,12 @@ const questions = [
     type: "list",
     name: "license",
     message: "Select a license for your project. (Required)",
-    choices: [
-      'MIT'
-      'Apache 2.0'
-      'ISC'
-      'N/A'
-    ],
+    choices: ["MIT", "Apache 2.0", "ISC", "N/A"],
 
-    validate: licenseList => {
+    validate: (licenseList) => {
       if (licenseList) {
         return true;
-      }
-      else {
+      } else {
         console.log("Please select a listed license.");
         return false;
       }
@@ -58,13 +52,15 @@ const questions = [
     // Contribution guidelines
     type: "input",
     name: "contributing",
-    message: "Provide some guidelines for how you'd like other developers to contribute to your project.",
+    message:
+      "Provide some guidelines for how you'd like other developers to contribute to your project.",
   },
   {
     // Test instructions
     type: "input",
     name: "tests",
-    message: "Provide any tests for your application and examples on how to run them.",
+    message:
+      "Provide any tests for your application and examples on how to run them.",
   },
   {
     // GitHub username
@@ -92,12 +88,11 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-  inquirer.prompt(questions)
-  .then (answers => {
+  inquirer.prompt(questions).then((answers) => {
     const generateDetails = generateMarkdown(answers);
-    writeToFile('./README.md', generateDetails);
+    writeToFile("./README.md", generateDetails);
   });
-};
+}
 
 // function call to initialize program
 init();
