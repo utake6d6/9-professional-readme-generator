@@ -16,56 +16,57 @@ const questions = [
   {
     // Description
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "description",
+    message: "",
   },
   {
     // Installation instructions
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "installation",
+    message: "",
   },
   {
     // Usage information
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "usage",
+    message: "",
   },
   {
     // License
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "license",
+    message: "",
+    choices: [],
   },
   {
     // Contribution guidelines
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "contributing",
+    message: "",
   },
   {
     // Test instructions
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "tests",
+    message: "",
   },
   {
     // Questions
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "questions",
+    message: "",
   },
   {
     // GitHub username
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "gitHubUsername",
+    message: "",
   },
   {
     // Email address
     type: "input",
-    name: "projectName",
-    message: "What's the name of your project?",
+    name: "emailAddress",
+    message: "",
   },
 ];
 

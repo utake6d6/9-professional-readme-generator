@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   
 # ${data.projectName}
 
-![License](https://img.shields.io/apm/l/license?color=blue&style=plastic)
+![License](https://img.shields.io/badge/License-${data.license}&color=blue&style=plastic)
 
 ## Table of Contents:
 * [Description](#description)
@@ -17,20 +17,34 @@ function generateMarkdown(data) {
 
 ## Description:
 
+${data.description}
+
 ## Installation:
+
+${data.installation}
 
 ## Usage:
 
+${data.usage}
+
 ## License:
+
+${data.license}
 
 ## Contributing:
 
+${data.contributing}
+
 ## Tests:
+
+${data.tests}
 
 ## Questions:
 
+If you have any questions please reach out to the developer:
 
-
+Github: <https://github.com/${data.gitHubUsername}>
+Email: <${data.emailAddress}>
 `;
 }
 
