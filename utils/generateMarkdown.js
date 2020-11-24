@@ -4,8 +4,7 @@ function generateMarkdown(data) {
   
 # ${data.projectName}
 
-![License](https://img.shields.io/badge/License-${data.license}&color=blue&style=plastic)
-![alt text](assets/images/screenshot.png)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Table of Contents:
 * [Description](#description)
@@ -21,6 +20,8 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Installation:
+
+Clone this repository, open index.js and in the terminal enter "node index.js". You will be prompted with questions regarding your project, once completed, a new README.md will be produced in the root folder.
 
 ${data.installation}
 
