@@ -26,7 +26,7 @@ Install Node.js and Inquirer.
 
 Clone this repository, open index.js and in the terminal enter "node index.js". You will be prompted with questions regarding your project, once completed, a new README file will be produced in the root folder.
 
-![Usage](assets\images\usage.gif)
+![Usage](https://github.com/utake6d6/9-professional-readme-generator/blob/main/assets/images/usage.gif)
 
 ## License:
 
