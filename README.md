@@ -32,7 +32,7 @@ MIT
 
 ## Contributing:
 
-This project may be forked.
+N/A
 
 ## Tests:
 
@@ -43,4 +43,5 @@ N/A
 If you have any questions please reach out to the developer:
 
 Github: <https://github.com/https://github.com/utake6d6/9-professional-readme-generator>
+
 Email: <utake6d6@gmail.com>

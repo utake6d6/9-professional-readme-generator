@@ -45,7 +45,7 @@ ${data.tests}
 If you have any questions please reach out to the developer:
 
 Github: <https://github.com/${data.gitHubRepo}>
-Email: <${data.emailAddress}>
+\nEmail: <${data.emailAddress}>
 `;
 }
 
