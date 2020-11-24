@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
+<img src="assets\images\install.png">
+
 ## Table of Contents:
 
 - [Description](#description)
@@ -18,13 +20,13 @@ Quickly produce a polished README file for your project.
 
 ## Installation:
 
-Clone this repository, open index.js and in the terminal enter "node index.js". You will be prompted with questions regarding your project, once completed, a new README file will be produced in the root folder.
-
-<img src="assets\images\install.png">
+Install Node.js and Inquirer.
 
 ## Usage:
 
-Install Node.js and Inquirer.
+Clone this repository, open index.js and in the terminal enter "node index.js". You will be prompted with questions regarding your project, once completed, a new README file will be produced in the root folder.
+
+![alt text](assets\images\usage.gif)
 
 ## License:
 
