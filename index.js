@@ -65,14 +65,32 @@ const questions = [
   {
     // GitHub username
     type: "input",
-    name: "gitHubUsername",
-    message: "Provide your GitHub username.",
+    name: "gitHubRepo",
+    message: "Provide your project's GitHub repository link.",
+
+    validate: (gitHubRepoInput) => {
+      if (gitHubRepoInput) {
+        return true;
+      } else {
+        console.log("Provide the GitHub repository link for your project.");
+        return false;
+      }
+    },
   },
   {
     // Email address
     type: "input",
     name: "emailAddress",
-    message: "Provide your GitHub affiliated email address.",
+    message: "Provide the email address used for your GitHub profile.",
+
+    validate: (emailAddressInput) => {
+      if (emailAddressInput) {
+        return true;
+      } else {
+        console.log("Provide an email address for your project.");
+        return false;
+      }
+    },
   },
 ];
 
